@@ -6,8 +6,7 @@ The platform combines a React.js frontend with a FastAPI backend and an XGBoost-
 
 ## 🚀 Live Demo
 
-**Credit Card Fraud Detection:**  
-Coming soon
+**Credit Card Fraud Detection:**:https://frontend-ivory-two-40.vercel.app/
 
 ## Features
 
