@@ -55,6 +55,8 @@ app = FastAPI(
 # ============================================================
 # CORS
 # ============================================================
+# CORS
+# ================================================================
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -62,6 +64,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://localhost:4173",
         "http://127.0.0.1:4173",
+        "https://frontend-ivory-two-40.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
